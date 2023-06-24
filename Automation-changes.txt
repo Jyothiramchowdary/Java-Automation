@@ -1,0 +1,15 @@
+Standard branches :
+==================================================================================================================
+1. master - Default branch for any repository - Latest updated code.
+2. develop - Development & Testing phase 
+3. release - Stable code or complete features code ready for production release
+ eg : release-1.0
+      release-silicon-3.0
+4. feature: Features wise changes
+      eg :   login-feature
+             logout-feature
+             product-catalog-feature
+             add-to-cart-feature
+             payment-method-features
+5. hotfix : Live/production errors branch
+            eg: issue-name/ticket assigned 
