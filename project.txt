@@ -1,0 +1,19 @@
+Linux/Windows:
+
+1. Tracking : We can get the details like  - who modified last: user_name
+                                             Modified details of last user : date & time
+                                             Size of file last modified : Size in GB/MB/KB
+                                             
+            Drawback: There is no proper tracking bec we dont have info which line/word/sentence/paragraph was modified/added/deleted/appended.
+
+2. Storage : Storage was not optimized properly. 50% of Space is wasted/occupied with backup's.
+
+Let suppose, Developer is working on login-feature of website.
+
+DAY-1: Login-feature.java -> 1 GB Data -> compliation,execution,testing etc -> Working file -> Stable.
+ Backup_Login-feature.java-01062023 -> 1 GB data
+DAY-2: Login-feature.java -> 5 GB Data -> compliation,execution,testing etc -> Working file -> Stable.
+ Backup_Login-feature.java-02062023 -> 5 GB data
+DAY-3: Login-feature.java -> 5 GB Data -> compliation,execution,testing etc -> Working file -> Stable.
+  Backup_Login-feature.java-03062023 -> 5 GB data
+DAY-4:  Login-feature.java -> 5 GB Data -> compliation,execution,testing etc
