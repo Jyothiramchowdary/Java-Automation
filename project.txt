@@ -17,3 +17,28 @@ DAY-2: Login-feature.java -> 5 GB Data -> compliation,execution,testing etc -> W
 DAY-3: Login-feature.java -> 5 GB Data -> compliation,execution,testing etc -> Working file -> Stable.
   Backup_Login-feature.java-03062023 -> 5 GB data
 DAY-4:  Login-feature.java -> 5 GB Data -> compliation,execution,testing etc
+
+
+Types of Version Control System(VCS):
+======================================================================================================================
+1. Centralized Version control system  :  Clearcase, SVN
+  
+ * Parallel Developement is not possible
+ * Changes lost cannot be recovered
+ * Bandwitdh required for making connection to Centralized server
+ * Licence cost
+
+2. Distributed Version control system : GIT/GITHUB , Bitbucket
+
+ * Parallel Developement is possible
+ * No chance of Impact on Main server
+ * Less Bandwitdh required for making connection to Main server
+ * No Licence cost - But subscription are requied for support.
+
+===================================================================================================================
+Architecture/Flow of GIT :
+===================================================================================================================
+Working Directory
+Staging Area
+Local Repo
+Remote repo
