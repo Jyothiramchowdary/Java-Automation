@@ -1,0 +1,1 @@
+ git pull: Pull is mechanism to download the updated changes from remote repo to local repo.
