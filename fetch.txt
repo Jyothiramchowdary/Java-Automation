@@ -1,0 +1,1 @@
+git fetch: fetch is used for download the updated changes from remote repo to intermediate branch called origin/branch_name.
