@@ -12,4 +12,18 @@ Standard branches :
              add-to-cart-feature
              payment-method-features
 5. hotfix : Live/production errors branch
-            eg: issue-name/ticket assigned 
+            eg: issue-name/ticket assigned
+
+
+Merge and Rebase:
+===================================================================================================================
+Merge: Merge is process of combining changes(files/directories/commits) from one branch to another branch.
+
+Syntax: git merge <branch_name
+
+
+eg :  master   M1 M2 M3 M4 M5
+
+        master > git merge develop
+
+      develop  M1 M2 M3 M4 M5 
